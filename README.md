@@ -14,10 +14,10 @@ The following models were tested under the same conditions:
 
 | Model | Accuracy | Açıklama |
 |-------|----------|----------|
-| **ViT (Custom)** | **97.99%** | Highest performance and efficiency. |
-| VGG16 | 97.14% | Best among CNN-based ones. |
-| ResNet50 | 96.35% | Too complex for the dataset. |
-| ResNet101 | 93.63% | Over-parameterization issue observed. |
+| **ViT (Custom)** | **97.90%** | Highest performance and efficiency. |
+| VGG16 | 97.16% | Best among CNN-based ones. |
+| ResNet50 | 95.44% | Too complex for the dataset. |
+| ResNet101 | 93.49% | Over-parameterization issue observed. |
 
 ##  Key Takeaways
 * **ViT's Strength:** Without convolution layers, ViT achieved the highest success rate on this problem, using only patch and attention.
